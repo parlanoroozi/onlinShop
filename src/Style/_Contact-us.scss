@@ -1,0 +1,77 @@
+//color-map
+$color-lable:#fff;
+$color-btn:#7a4343;
+
+.contact{
+    &-body{
+        border-radius: 12px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    background-color: white;
+    
+    }
+    &-img-body{
+        background-image: url("https://i.pinimg.com/564x/19/77/fe/1977feec50af796dc1155be43905863c.jpg");
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }        
+
+    &-form{
+        padding-right: 30px;
+        text-align: right;
+        background: #232526;  
+        background: -webkit-linear-gradient(to right, #414345, #232526);  
+        background: linear-gradient(to right, #414345, #232526); 
+        
+    }
+   
+}
+.header-form{
+    text-align: center;
+    color: $color-lable;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.label-form{
+    color: $color-lable;
+}
+
+.form-group label{
+    color: $color-lable;
+}
+.form-group input {
+    border: none;
+    border-radius: 12px;
+    background-color: #6d687542;
+    direction: rtl;
+}
+.form-group textarea{
+    color: rgba(255, 255, 255, 0.425);
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: #6d687542;
+    direction: rtl;
+}
+.btn-form{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: $color-btn;
+    color: $color-lable;
+    &-body{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1602px) {
+    .contact-img-body {
+display: none;   
+ }
+ 
+  }

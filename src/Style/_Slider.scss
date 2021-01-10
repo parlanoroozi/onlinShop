@@ -1,0 +1,43 @@
+//color-map
+$header_color: #c77a7abd;
+$txt_color: #fff;
+$btn_txt_color: #ddbea9;
+
+.card {
+  &-slider {
+    width: 50%;
+    height: auto;
+  }
+
+  &-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &-body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &-title {
+    color: $header_color;
+  }
+  &-btn-slider {
+    background-color: $header_color;
+    height: 40px;
+    width: auto;
+    border: none;
+    border-radius: 20px;
+    color: $txt_color;
+    font-size: 18px;
+  }
+}
+.controls-top {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-carousel {
+  height: auto;
+}

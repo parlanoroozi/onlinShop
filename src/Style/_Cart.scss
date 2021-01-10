@@ -1,0 +1,133 @@
+//color map
+$border-color: #f79d65;
+
+.cartbody {
+  margin-top: 50%;
+}
+.sidenav {
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 10px;
+  text-align: center;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-right: 430px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+//change theme
+.switch {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/564x/96/fa/77/96fa77e838ba9dc7d69a2c9ae32c2fbc.jpg");
+
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+  transition: background-image 0.7s ease-in-out;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.switch:checked {
+  background-image: url("https://i.pinimg.com/564x/f7/46/75/f7467582e1b3f1742360f1cde1674f95.jpg");
+
+  background-size: cover;
+  transition: background-image 1s ease-in-out;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  th,
+  tr {
+    color: white;
+  }
+  .card {
+    background-color: #252525;
+  }
+  .navbar {
+    background-color: #ffffff71;
+  }
+}
+
+//changeetelat
+
+.Fields-cart {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  text-align: right;
+  direction: rtl;
+}
+.Fields-cart input[type="text"] {
+  border: none;
+  border-bottom: 2px solid $border-color;
+  border-radius: 4px;
+}
+.Fields-cart input[type="password"] {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid $border-color;
+  border-radius: 4px;
+}
+
+.Fields-cart input[type="mail"] {
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid $border-color;
+  border-radius: 4px;
+}
+
+.Fields-cart button[type="submit"] {
+  width: 150px;
+  background-color: #f25c54;
+  color: white;
+  @media (max-width: 1095px) {
+    width: 60px;
+  }
+}
+.Fields-cart textarea {
+  width: 500px;
+  border: 2px solid $border-color;
+  border-radius: 4px;
+}
+
+.btn-save {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,48 @@
+@import "Header";
+@import "CardOverlay";
+@import "Slider";
+@import "Contact-us";
+@import "footersecound";
+@import "login";
+@import "Productslist";
+@import "Products";
+@import "ProductIntroduction";
+@import "Cart";
+@import "Off";
+
+//font_map
+$font-name: Sahel;
+
+@font-face {
+  font-family: Sahel;
+  src: ("../font/sahel-font/Sahel.eot");
+  src: ("../font/sahel-font/Sahel.ttf") format("ttf");
+  src: ("../font/sahel-font/Sahel.woff") format("woff");
+  font-weight: normal;
+}
+
+* {
+  font-family: $font-name;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+//hr_desidn
+.style-hr {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.style-hr hr {
+  height: 12px;
+  margin: 25px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+.style-hr h3 {
+  margin-top: 40px;
+}

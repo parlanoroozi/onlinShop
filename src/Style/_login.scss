@@ -1,0 +1,102 @@
+.Fields input[type="text"] {
+  border: none;
+  border-bottom: 3px solid #ffe8d6;
+  border-radius: 4px;
+  color: #ffe8d6;
+}
+.Fields input[type="password"] {
+  border: none;
+  border-bottom: 3px solid #ffe8d6;
+  border-radius: 4px;
+  color: #ffe8d6;
+}
+
+.Fields input[type="mail"] {
+  border: none;
+  border-bottom: 3px solid #ffe8d6;
+  border-radius: 4px;
+  color: #ffe8d6;
+}
+.Fields label {
+  color: darkgray;
+}
+form button[type="submit"] {
+  width: 65px;
+  background-color: #e75a7c;
+  color: white;
+  @media (max-width: 1095px) {
+    width: 60px;
+  }
+}
+.btn-login {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login :hover {
+  width: 70px;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  color: wheat;
+  vertical-align: middle;
+}
+.login-link {
+  a {
+    color: dimgray;
+  }
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-login h4 {
+  color: #ffe8d6;
+}
+
+.Fields {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  text-align: right;
+  direction: rtl;
+}
+.container-bg {
+  margin: 20px;
+  display: flex;
+  background: rgb(240, 239, 235);
+  background: linear-gradient(
+    77deg,
+    rgba(240, 239, 235, 0.8268441165528712) 19%,
+    rgba(255, 241, 230, 0.773622828037465) 48%
+  );
+  justify-content: space-around;
+}
+.Fields div {
+  margin-right: 10px;
+}
+
+.Fields-img {
+  display: flex;
+  right: 0;
+  width: auto;
+}
+.container-body{
+  margin-top: 8%;
+}
+.formContainer-login {
+  margin: 10px;
+  padding: 5px 20px 15px 20px;
+  border: none;
+  border-radius: 3px;
+}
+@media screen and (max-width: 1117px) {
+  div.Fields-img {
+    display: none;
+  }
+}

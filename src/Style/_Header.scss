@@ -1,0 +1,57 @@
+//color_map
+$Color-Captionbg: #64636452;
+$Color-navmainBg: #fffdff5d;
+
+.navbarStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  width: 100%;
+  background-color: $Color-Captionbg;
+}
+
+.carousel {
+  &-item {
+    width: 100%;
+    height: 40vw;
+  }
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    width: auto;
+    background-color: $Color-Captionbg;
+  }
+}
+.logo-header {
+  height: 50px;
+  width: 50px;
+}
+.NavLink-Header-style {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.NavLink-Header-style :active {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+//NavProuduct
+
+.NavProuduct {
+  margin-top: 30px;
+  padding-bottom: 8px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  color: red;
+}
+
